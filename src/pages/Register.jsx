@@ -8,7 +8,7 @@ function Register() {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">
-            Join the Chat Community and Connect with Friends Worldwide!
+            <span className="text-secondary-focus">Join</span> the <span className="text-primary-focus">Chat</span> Community and <span className="text-primary-focus">Connect</span> with Friends <span className="text-secondary-focus">Worldwide!</span>
           </h1>
           <p className="py-6">
             Sign up now to become part of our vibrant chat community, where you
