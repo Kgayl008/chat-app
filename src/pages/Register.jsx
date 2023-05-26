@@ -19,7 +19,7 @@ function Register() {
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="card-body">
-            <h1 className="text-center text-4xl">Register</h1>
+            <h1 className="text-center text-4xl font-bold">Register</h1>
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Name</span>
