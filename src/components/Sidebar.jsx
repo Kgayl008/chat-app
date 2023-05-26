@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './Navbar'
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <div className='sidebar__container bg-primary overflow-hidden'>
+      <Navbar/>
+    </div>
   )
 }
 
