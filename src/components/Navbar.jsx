@@ -5,10 +5,12 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-primary-focus">
                 <div className="flex-1">
-                    <button className="btn btn-ghost normal-case text-xl text-white">Chatterbox</button>
+                    <button className="btn btn-ghost normal-case text-xl text-white">
+                        Chatterbox
+                    </button>
                 </div>
                 <div className="flex-none gap-2">
-                  <p className="text-white text-xl">Paul</p>
+                    <p className="text-white text-xl">Paul</p>
                     <div className="dropdown dropdown-end">
                         <label tabIndex={0}
                             className="btn btn-ghost btn-circle avatar">

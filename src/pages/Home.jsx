@@ -7,10 +7,9 @@ const Home = () => {
   return (
     <div>
       <div className="hero min-h-screen bg-base-200">
-      <div className='home__container overflow-hidden shadow-2xl bg-base-100 flex'>
+      <div className='home__container rounded-3xl overflow-hidden shadow-2xl bg-base-100 flex'>
         <Sidebar/>
         <Chat/>
-
       </div>
     </div>
     </div>

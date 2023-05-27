@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const Search = () => {
   return (
-    <div>Search</div>
-  )
-}
+    <>
+      <div>
+        <input
+          type="text"
+          placeholder="Find a user"
+          className="input input-bordered w-full bg-primary text-white"
+        />
+      </div>
+    </>
+  );
+};
 
-export default Search
+export default Search;
