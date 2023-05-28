@@ -2,7 +2,7 @@ import React from 'react'
 
 const Message = () => {
   return (
-    <div>
+    <div className='overflow-scroll'>
       <div className="chat chat-start">
   <div className="chat-image avatar">
     <div className="w-10 rounded-full">
@@ -18,7 +18,7 @@ const Message = () => {
 <div className="chat chat-end">
   <div className="chat-image avatar">
     <div className="w-10 rounded-full">
-      <img src="https://images.pexels.com/photos/1310522/pexels-photo-1310522.jpeg?auto=compress&cs=tinysrgb&w=800" alt=''/>
+      <img src="https://images.pexels.com/photos/3586091/pexels-photo-3586091.jpeg?auto=compress&cs=tinysrgb&w=800" alt=''/>
     </div>
   </div>
   <div className="chat-header">
@@ -28,6 +28,7 @@ const Message = () => {
   <div className="chat-bubble">I hate you!</div>
 </div>
     </div>
+
   )
 }
 
